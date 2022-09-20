@@ -1,6 +1,6 @@
 # COVID-19--Detection_Using_X-Rays
 
-Model: "sequential_1"
+### Model: "sequential_1"
 
 Layer (type)                 Output Shape              Param #   
 =================================================================
