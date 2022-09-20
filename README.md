@@ -1,29 +1,16 @@
 # COVID-19--Detection_Using_X-Rays
 
-### Model: "sequential_1"
+![image](https://user-images.githubusercontent.com/100412728/191287739-cb579eab-54c1-4e1e-b09b-57446f9ac384.png)
 
-Layer (type)                 Output Shape              Param #   
-=================================================================
-conv2d_1 (Conv2D)            (None, 222, 222, 32)      896      
-conv2d_2 (Conv2D)            (None, 220, 220, 64)      18496     
-max_pooling2d_1 (MaxPooling2 (None, 110, 110, 64)      0         
-dropout_1 (Dropout)          (None, 110, 110, 64)      0         
-conv2d_3 (Conv2D)            (None, 108, 108, 64)      36928     
-max_pooling2d_2 (MaxPooling2 (None, 54, 54, 64)        0         
-dropout_2 (Dropout)          (None, 54, 54, 64)        0         
-conv2d_4 (Conv2D)            (None, 52, 52, 128)       73856     
-max_pooling2d_3 (MaxPooling2 (None, 26, 26, 128)       0         
-dropout_3 (Dropout)          (None, 26, 26, 128)       0         
-conv2d_5 (Conv2D)            (None, 24, 24, 128)       147584    
-max_pooling2d_4 (MaxPooling2 (None, 12, 12, 128)       0         
-dropout_4 (Dropout)          (None, 12, 12, 128)       0       
-flatten_1 (Flatten)          (None, 18432)             0         
-dense_1 (Dense)              (None, 64)                1179712   
-dropout_5 (Dropout)          (None, 64)                0         
-dense_2 (Dense)              (None, 1)                 65        
-=================================================================
-Total params: 1,457,537
-Trainable params: 1,457,537
-Non-trainable params: 0
 
+![image](https://user-images.githubusercontent.com/100412728/191289193-91a7d790-2cd9-46a8-956e-c6161d81a3d7.png)
+
+
+![image](https://user-images.githubusercontent.com/100412728/191289378-8f516392-b588-4dbb-ae63-6a13f4d9e5f9.png)
+
+
+![image](https://user-images.githubusercontent.com/100412728/191289467-20dab81e-3b6c-4400-aab8-a77cce5a4e6a.png)
+
+
+![image](https://user-images.githubusercontent.com/100412728/191289668-6fe0c727-3573-4eab-b693-d084bb241d3a.png)
 
